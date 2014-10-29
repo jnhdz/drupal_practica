@@ -2,12 +2,21 @@
  * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
  * remove this comment and start adding your styles to this file.
  */
+
+#navbar .container
+{
+    height: 120px;
+    background-color: #fff;
+    border: none;
+}
+
 .well {
     border: none;
     background-color: #12182d;
     width: 140px;
     font-size: 10px;
     padding: 0px;
+    float: left;
 }
 
 #navbar, .navbar, .navbar-default
@@ -25,39 +34,73 @@
     float: right;
 }
 
+.logo
+{
+    width: 100%;
+}
+
 .navbar .logo
 {
     display: block;
     text-align: center;
-    width: 100%;
     margin: 29px 20px 0;
 }
 
-.navbar:after {
+.navbar-header
+{
+    width: 100%;
+}
+
+.navbar-header:after 
+{
     border-top-style: solid;
     border-top-color: #000;
     border-bottom-color: #000;
     border-top-width: 5px;
-    border-bottom: 2px solid;
-    height: 3px;
-    /* display: block; */
-    /* margin-top: 20px; */
-    /* top: -18px; */
+    border-bottom: 1px solid;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 4px;
     content: ' ';
     position: relative;
 }
 
-a
+.navbar:after 
+{
+    border-top-style: solid;
+    border-top-color: #000;
+    border-bottom-color: #000;
+    border-top-width: 1px;
+    border-bottom: 1px solid;
+    width: 100%;
+    content: ' ';
+    position: relative;
+}
+
+
+.menu a
 {
     color: #fff;
 }
 
-.col-sm-3 {
-    /* width: 25%; */
+.menu li a:hover
+{
+    background-color: #0d3058;
+}
+
+
+
+.col-sm-3 
+{
+    width: 140px; 
     /* margin: 0px; */
     padding: 0px;
+    float: left;
+}
+
+.col-sm-9 
+{
+    /* width: 75%; */
+    padding-top: 50px;
 }
 
 .main-container
@@ -67,4 +110,136 @@ a
 
 .nav>li>a {
     padding: 10px 0px;
+}
+
+#block-block-1 p
+{
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 14px 0 14px 10px;
+    color: #999;
+    height: 10px;
+}
+
+#block-block-1 a
+{
+    color: #999;
+    text-decoration: none;
+}
+
+#block-block-2
+{
+    padding: 10px 5px;
+    height: 139px;
+    width: 100%;
+    text-align: center;
+    top: 34px;
+}
+
+#block-block-2 p
+{
+    width: 100%;
+}
+
+#block-block-3
+{
+    width: 130px;
+    height: 34px;
+}
+
+.trb_nav_vbmenu 
+{
+    display: block;
+    width: 140px;
+    height: 40px;
+    margin: 0;
+    padding: 6px 5px 0!important;
+    text-align: center;
+    background-color: #144a7c;
+    text-decoration: none;
+    color: #c7d9e9;
+    transition: all .25s;
+}
+
+.trb_nav_vbmenu:after 
+{
+    content: '';/*Flecha hacia abajo*/
+    display: block;
+    font-family: trb_Icons;
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: bolder;
+}
+
+.trb_nav_vbmenu:before {
+    font-family: Georgia,serif;
+    font-weight: normal;
+    content: 'Visual Browse';
+    display: block;
+    font-size: 14px;
+    color: #c7d9e9;
+    line-height: 16px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    padding-top: 4px;
+}
+
+.input-group-btn
+{
+    
+}
+
+/*
+.input-group-btn
+{
+    border-top: 1px solid #808080;
+    border-bottom: 1px solid #808080;
+    width: 135px;
+}
+
+.input-group input
+{
+    background: #12182d;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: Arial,Sans-serif;
+    font-weight: bold;
+    margin-left: 29px;
+    outline: 0;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#edit-search-block-form--2::-webkit-input-placeholder 
+{
+  color: #fff;
+}
+
+.input-group-btn button
+{
+    font-family: trb_Icons;
+    background: transparent;
+    color: #FFF;
+    font-size: 17px;
+    border: 0;
+    padding: 0 0 0 3px;
+    cursor: pointer;
+}
+
+.input-group-btn button:hover
+{
+   color: #fff;
+    background: transparent;
+}*/
+
+#block-block-4
+{
+    color: #999;
+    font-weight: bold;
+    text-transform: uppercase;
+    right: 0;
+    text-align: right;
+    font-size: 9px;
+    margin-top: 10px;
 }
