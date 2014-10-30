@@ -3,6 +3,11 @@
  * remove this comment and start adding your styles to this file.
  */
 
+#block-menu-menu-none- .menu li a:hover
+{
+    background-color: #12182d;
+}
+
 #navbar .container
 {
     height: 120px;
@@ -24,7 +29,7 @@
     width: 1092px;
     height: 120px;
     margin: 0px;
-    padding: 0px;  
+    margin-top: -10px;
 }
 
 .navbar.container 
@@ -32,6 +37,7 @@
     background-color: #fff;
     border: none;
     float: right;
+    
 }
 
 .logo
@@ -43,7 +49,7 @@
 {
     display: block;
     text-align: center;
-    margin: 29px 20px 0;
+    margin: 29px 0px 0;
 }
 
 .navbar-header
@@ -76,31 +82,31 @@
     position: relative;
 }
 
-
 .menu a
 {
     color: #fff;
+    width: 140px;
+    height: 41px;
 }
 
-.menu li a:hover
+#block-system-main-menu .menu li a:hover
 {
     background-color: #0d3058;
 }
 
-
-
 .col-sm-3 
 {
-    width: 140px; 
+    width: 140px;
     /* margin: 0px; */
     padding: 0px;
-    float: left;
 }
 
 .col-sm-9 
 {
     /* width: 75%; */
-    padding-top: 50px;
+    padding-top: 64px;
+    padding-left: 0px;
+    width: 88%;
 }
 
 .main-container
@@ -112,19 +118,20 @@
     padding: 10px 0px;
 }
 
-#block-block-1 p
+
+#block-block-1 
 {
-    font-size: 10px;
-    text-transform: uppercase;
-    padding: 14px 0 14px 10px;
-    color: #999;
-    height: 10px;
+    padding: 14px 0 14px 0px;
 }
 
-#block-block-1 a
+
+.logueo, .logueo:hover
 {
     color: #999;
     text-decoration: none;
+    font-size: 10px;
+    text-transform: uppercase;
+    height: 140px;
 }
 
 #block-block-2
@@ -242,4 +249,133 @@
     text-align: right;
     font-size: 9px;
     margin-top: 10px;
+}
+
+.node-articulos a
+{
+padding-top: 10px;
+margin: 0;
+color: #666;
+font-family: Georgia,serif;
+text-transform: uppercase;
+font-size: 18px;
+padding-right: 15px
+}
+
+#block-views-advertisement-block
+{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    content: '';
+}
+
+#block-views-advertisement-block
+{    
+    border-bottom: 1px solid #ccc;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+#block-views-advertisement-block .field-content img
+{
+    width: 728px;
+    height: 90px;
+}
+
+
+.region-content
+{
+    padding-left: 40px!important;
+    padding-right: 40px!important;
+}
+
+.view-top-news
+{
+    width: 711px;
+}
+
+.view-top-news img
+{
+    width: 711px;
+    height: 444px;
+}
+
+#block-block-6
+{
+    
+    padding-top: 30px;
+    padding-bottom: 14px;
+}
+
+.trb_outfit_outfitTitle,.trb_outfit_sponsorship_a
+{
+    position: relative;
+    margin: 0;
+    color: #666;
+    font-family: Georgia,serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 18px;
+    display: inline;
+    padding-right: 15px;
+}
+
+
+.trb_outfit_sponsorship
+{
+    margin-bottom: 0;
+    display: inline-block;
+    border-left: 1px solid #e6e6e6;
+    margin-top: 0;
+    min-width: 290px;
+    top: 10px;
+}
+
+.trb_outfit_sponsorship_a
+{
+    color: #999;
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: normal;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    float: left;
+}
+
+
+.trb_outfit_sponsorship_a:hover
+{
+    color: #CCC;
+    text-decoration: none;
+}
+
+.trb_outfit_sponsorship_presentedBy 
+{
+    bottom: 12px;
+    margin-left: 19px;
+}
+.trb_outfit_sponsorship_logo
+{
+    display: inline-block;
+    position: relative;
+    /* height: 80px; */
+    width: 115px;
+    height: 38px;
+    margin: 18px 40px 0 0;
+    background: url("/drupal_ptc/sites/all/themes/theme_new/images/sprite-header4.png") no-repeat 0 -33px transparent;
+}
+
+.trb_outfit_sponsorship
+{
+    width: 291px;
+    height: 39px;
+}
+
+.trb_outfit_sponsorship_logo_img
+{
+    float: left;
 }
