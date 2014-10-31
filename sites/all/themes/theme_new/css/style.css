@@ -288,20 +288,10 @@ padding-right: 15px
 
 .region-content
 {
-    padding-left: 40px!important;
-    padding-right: 40px!important;
+    margin-left: 40px!important;
+    /*padding-right: 40px!important;*/
 }
 
-.view-top-news
-{
-    width: 711px;
-}
-
-.view-top-news img
-{
-    width: 711px;
-    height: 444px;
-}
 
 #block-block-6
 {
@@ -309,6 +299,7 @@ padding-right: 15px
     padding-top: 30px;
     padding-bottom: 14px;
 }
+
 
 .trb_outfit_outfitTitle,.trb_outfit_sponsorship_a
 {
@@ -375,7 +366,102 @@ padding-right: 15px
     height: 39px;
 }
 
-.trb_outfit_sponsorship_logo_img
+#block-views-slideshow-block
+{
+    width: 712px;
+    float: left;
+}
+.view-advertisement-right .view-id-advertisement_right .view-content
+{
+    width: 340px;
+    float: left;
+    display: block;
+    text-align: right;
+}
+
+#block-views-advertisement-right-block .view-advertisement-right .view-content img
+{
+    width: 300px;
+    height: 250px;
+    margin-left: 40px;
+}
+#block-views-advertisement-right-block .view-advertisement-right .view-content a
+{
+    margin-left: 40px;
+}
+
+#block-views-top-news-block .views-row-1
+{
+    width: 691px;
+    height: 181px;
+}
+.views-row-1 .views-field-title span a
+{
+    color: #000;
+    text-decoration: none;
+    font-family: Georgia,serif;
+    font-size: 34px;
+}
+
+#block-views-top-news-block .attachment-after a
+{
+    color: #000;
+    text-decoration: none;
+    font-family: Georgia,serif;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: bold;
+}
+/*HORA*/
+#block-views-top-news-block .views-field-content .views-field-created span
+{
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 14px;
+    font-family: Arial,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    color: #999;
+    padding-right: 4px;
+}
+
+#block-views-top-news-block .view-id-top_news .view-content .views-row.top-news
+{
+    border: 1px solid #c3c3c3;
+    width: 691px;
+    height: 143px;
+}
+#block-views-top-news-block .views-field-title
+{
+    width: 278px;
+    height: 125px;
+    float: left;
+}
+/**/
+
+#block-views-top-news-block, #block-views-top-news-block-1
 {
     float: left;
+}
+
+#block-views-top-news-block-1 .view-top-news .view-content
+{
+    border: 1px solid #c3c3c3;
+}
+
+
+#block-views-top-news-block-1 .view-top-news .view-content .views-row-1.top-news
+{
+    
+}
+
+#block-views-top-news-block-1 .view-top-news .view-content .views-row-2.top-news
+{
+    
+    border: 1px solid red;
+}
+
+#block-system-main
+{
+    clear: both;
 }
