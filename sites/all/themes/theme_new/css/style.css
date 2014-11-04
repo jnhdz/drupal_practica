@@ -369,7 +369,7 @@ padding-right: 15px
     height: 38px;/*
     margin: 18px 40px 0 0;*/
     float: left;
-    background: url("/drupal_ptc/sites/all/themes/theme_new/images/sprite-header4.png") no-repeat 0 -33px transparent;
+    background: url("drupal_ptc/sites/all/themes/theme_new/images/sprite-header4.png") no-repeat 0 -33px transparent;
 }
 
 .trb_outfit_sponsorship
@@ -488,6 +488,7 @@ padding-right: 15px
     text-transform: uppercase;
     letter-spacing: .5px;
     color: #999;
+    display: block;
 }
 
 #block-views-top-news-block .view-top-news .view-content .views-row-1 .views-field-created .field-content
@@ -541,7 +542,7 @@ padding-right: 15px
     color: #666;
     text-decoration: none;
 }
-
+/*
 #block-views-top-news-block-1:before
 {
     height: 1px;
@@ -551,10 +552,63 @@ padding-right: 15px
     position: absolute;
     left: 0;
     top: 0;
-}
+}*/
 
 #block-views-top-news-block-1
 {
     width: 320px;
     height: 193px;
+}
+#block-views-top-news-block-1 .view-top-news .view-content .views-row-1
+{
+    height: 107px;
+}
+
+#block-views-top-news-block-1 .view-top-news .view-content .views-row-1 .views-field-field-image
+{
+    float: right;
+}
+
+#block-views-top-news-block-1 .view-top-news .view-content .views-row-2
+{
+    clear: both;
+    height: 86px;
+}
+
+#block-views-top-news-block-1 .view-top-news .view-content .views-row-2 .views-field-field-image
+{
+    float: left;
+}
+
+#block-views-secondary-articles-block
+{
+    clear: both;
+}
+#block-views-secondary-articles-block .view-secondary-articles .view-content .views-row.views-row-1.views-row-odd.views-row-first
+{
+    margin-left: 0px;
+}
+#block-views-secondary-articles-block .view-secondary-articles .view-content .views-row 
+{
+    /* margin-left: 40px; */
+    margin-top: 30px;
+    width: 233px;
+    height: 87px;
+    float: left;
+}
+
+#block-views-secondary-articles-block .view-secondary-articles .view-content .views-row 
+{
+    margin-left: 40px;
+    padding: 10px 0 20px;
+    border-top: 1px solid #ccc;
+}
+
+#block-views-top-news-block-1
+{
+    height: 1px;
+    background-color: #ccc;
+    content: '';
+    left: 0;
+    top: 0;
 }

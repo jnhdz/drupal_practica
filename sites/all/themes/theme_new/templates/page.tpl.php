@@ -124,10 +124,16 @@
   </header> <!-- /#page-header -->
 
   <div class="row">
-  
     <?php if (!empty($page['sidebar_first'])): ?>
       <aside class="col-sm-3" role="complementary">
         <?php print render($page['sidebar_first']); ?>
+          
+          <?php if (!empty($page['logueo'])):?>
+        <div id="logueo">
+          <?php print render($page['logueo']); ?>
+        </div>
+      <?php endif;?>
+          
       </aside>  <!-- /#sidebar-first -->
     <?php endif; ?>
     <section<?php print $content_column_class; ?>>
