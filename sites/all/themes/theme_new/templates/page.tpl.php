@@ -180,6 +180,13 @@
       </aside>  <!-- /#sidebar-second -->
     <?php endif; ?>
 
+      <?php if (!empty($page['artrelacionados'])):?>
+        <div id="artrelacionados">
+          <?php print render($page['artrelacionados']); ?>
+        </div>
+      <?php endif;?>
+      
+      
   </div>
 </div>
 <footer class="footer container">

@@ -691,3 +691,20 @@ padding-right: 15px
     margin-bottom: 1em;
     color: #666;
 }
+
+#block-views-articulos-relacionados-block .view-articulos-relacionados .view-content .views-row
+{
+   float: left;
+    width: 150px;
+    height: 110px;
+}
+
+#block-views-articulos-relacionados-block
+{
+    border-bottom: 1px solid #666;
+}
+
+#block-views-election-guides-block .view-election-guides
+{
+    float: left;
+}
