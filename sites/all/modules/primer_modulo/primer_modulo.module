@@ -1,0 +1,69 @@
+<?php
+
+
+/** 
+*implementando el hook_block_info
+*/
+
+function primer_modulo_block_info(){
+	$blocks['saludo']=array(
+		'info'=> 'Bloque para mi primer modulo',
+		);
+	return $blocks;
+
+}
+/** 
+*Implemantando el hook_blook_view().
+*/
+function primer_modulo_block_view($delta =''){
+
+	switch ($delta) {
+		case 'primer_modulo_saludo':
+			$block['content']= primer_modulo_saludo ();
+			return $block;
+	}
+}
+/**
+ * Implementando el hook_menu().
+ */
+function primer_modulo_menu() {
+	$items ['admin/config/content/saludo'] =array(
+		'title' => 'Saludo de Inicio',
+		'description' => 'Configuracion del saludo de inicio del sitio.',
+		'page callback' => 'drupal_get_form',
+		'page arguments' => array('saludo_configuracion'),
+		'access arguments' => array('administer site configuration'),
+		'file' => 'saludo.admin.inc',
+		);
+
+  $items['saludar/primer-modulo'] = array(
+    'title' => 'Primer Modulo',
+    'page callback' =>'primer_modulo_saludo',
+    'access callback' => TRUE,
+  );
+  return $items;
+
+}
+
+
+/**
+ * Callback que implementa la página: saludar/mi primer modulo.
+ */
+
+function primer_modulo_saludo() {
+	$variables = array(
+		'message' => variable_get ('saludo_saludo','Hola este es mi primer modulo'),
+		);
+
+  return theme ('primer_modulo_saludo',$variables);
+}
+/**
+*Implementando el hook_theme
+*/
+function primer_modulo_theme(){
+	return array(
+		'primer_modulo_saludo' => array(
+			'template' => 'primer_modulo_saludo'
+			),
+		);
+}

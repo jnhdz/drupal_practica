@@ -3,6 +3,18 @@
  * remove this comment and start adding your styles to this file.
  */
 
+#block-system-navigation
+{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+#block-system-navigation .menu a
+{
+    color: #111;
+}
+
 #block-menu-menu-none- .menu li a:hover 
 {
     background-color: #12182d;
