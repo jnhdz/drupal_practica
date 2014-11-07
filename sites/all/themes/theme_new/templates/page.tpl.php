@@ -168,13 +168,8 @@
       <?php if (!empty($action_links)): ?>
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
+      <?php print render($page['content']); ?>
         
-        <?php  if(drupal_is_front_page())
-                {
-                    unset($page['content']['system_main']['default_message']);
-            } 
-        print render($page['content']); 
-    ?>
         
         
         
