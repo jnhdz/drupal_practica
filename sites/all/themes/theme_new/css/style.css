@@ -227,55 +227,6 @@ overflow-y: scroll;*/
     padding-top: 4px;
 }
 
-.input-group-btn
-{
-    
-}
-
-/*
-.input-group-btn
-{
-    border-top: 1px solid #808080;
-    border-bottom: 1px solid #808080;
-    width: 135px;
-}
-
-.input-group input
-{
-    background: #12182d;
-    font-size: 13px;
-    text-transform: uppercase;
-    font-family: Arial,Sans-serif;
-    font-weight: bold;
-    margin-left: 29px;
-    outline: 0;
-    border: none;
-    margin: 0px;
-    padding: 0px;
-}
-
-#edit-search-block-form--2::-webkit-input-placeholder 
-{
-  color: #fff;
-}
-
-.input-group-btn button
-{
-    font-family: trb_Icons;
-    background: transparent;
-    color: #FFF;
-    font-size: 17px;
-    border: 0;
-    padding: 0 0 0 3px;
-    cursor: pointer;
-}
-
-.input-group-btn button:hover
-{
-   color: #fff;
-    background: transparent;
-}*/
-
 #block-block-4
 {
     color: #999;
@@ -442,7 +393,7 @@ padding-right: 15px
 #block-views-top-news-block .views-row-1
 {
     width: 691px;
-    height: 181px;
+    height: auto;
 }
 
 #block-views-top-news-block .view-top-news .view-content .views-row-1 .views-field-title span a
@@ -476,19 +427,14 @@ padding-right: 15px
 #block-views-top-news-block .views-field-title
 {
     width: 278px;
-    height: 125px;
+    height: auto;
     float: left;
 }
 
-#block-views-top-news-block, #block-views-top-news-block-1
+#block-views-top-news-block, #block-views-top-news-block-2
 {
     float: left;
 }
-/*
-#block-views-top-news-block-1 .view-top-news .view-content .views-row-2.top-news
-{
-    border: 1px solid red;
-}*/
 
 #block-system-main
 {
@@ -532,7 +478,7 @@ padding-right: 15px
     padding-right: 4px;
 }
 
-#block-views-top-news-block-1 .view-top-news .view-content .views-row-1 .views-field-term-node-tid span
+#block-views-top-news-block-2 .view-top-news .view-content .views-row-1 .views-field-term-node-tid span
 {
     font-size: 11px;
     line-height: 14px;
@@ -548,7 +494,7 @@ padding-right: 15px
 }
 
 /*hora_gral*/
-#block-views-top-news-block-1 .view-top-news .view-content .views-row-2 .views-field-term-node-tid span
+#block-views-top-news-block-2 .view-top-news .view-content .views-row-2 .views-field-term-node-tid span
 {
     font-size: 11px;
     line-height: 14px;
@@ -579,28 +525,28 @@ padding-right: 15px
     text-decoration: none;
 }
 
-#block-views-top-news-block-1
+#block-views-top-news-block-2
 {
     width: 320px;
-    height: 193px;
+    height: auto;
 }
-#block-views-top-news-block-1 .view-top-news .view-content .views-row-1
+#block-views-top-news-block-2 .view-top-news .view-content .views-row-1
 {
     height: 107px;
 }
 
-#block-views-top-news-block-1 .view-top-news .view-content .views-row-1 .views-field-field-image
+#block-views-top-news-block-2 .view-top-news .view-content .views-row-1 .views-field-field-image
 {
     float: left;
 }
 
-#block-views-top-news-block-1 .view-top-news .view-content .views-row-2
+#block-views-top-news-block-2 .view-top-news .view-content .views-row-2
 {
     clear: both;
     height: 86px;
 }
 
-#block-views-top-news-block-1 .view-top-news .view-content .views-row-2 .views-field-field-image
+#block-views-top-news-block-2 .view-top-news .view-content .views-row-2 .views-field-field-image
 {
     float: right;
 }
@@ -636,10 +582,9 @@ padding-right: 15px
     border-top: 1px solid #ccc;
 }
 
-#block-views-top-news-block-1
+#block-views-top-news-block-2
 {
-    height: 1px;
-    background-color: #ccc;
+    height: auto;
     content: '';
     left: 0;
     top: 0;
@@ -696,7 +641,7 @@ padding-right: 15px
 {
    float: left;
     width: 150px;
-    height: 110px;
+    height: auto;
 }
 
 #block-views-articulos-relacionados-block
@@ -704,7 +649,47 @@ padding-right: 15px
     border-bottom: 1px solid #666;
 }
 
-#block-views-election-guides-block .view-election-guides
+.pie_slide
 {
-    float: left;
+    display: block;
+    margin: 10px 0;
+    font-family: Arial,serif;
+    font-size: 12px;
+    line-height: 17px;
+    color: #999;
+}
+
+#block-views-election-guides-block
+{
+    background-color: #d3deea;
+}
+#block-views-election-guides-block .view-election-guides .attachment .view .view-content .views-row .views-field span.field-content
+{
+    font-size: 33px;
+line-height: 35px;
+min-width: 150px;
+max-width: 207px;
+margin-top: 3px;
+margin-bottom: 8px;
+    font-family: Georgia,serif;
+color: #0d3058;
+}
+#block-views-election-guides-block .view-election-guides .view-content .views-row
+{
+   float: left;
+    width: 200px;
+min-height: 296px;
+    padding: 20px;
+    color: #39526c;
+}
+#block-views-election-guides-block .view-election-guides .view-content .views-row a
+{
+    font-size: 18px;
+line-height: 20px;
+font-family: Georgia,serif;
+color: #0d3058;
+display: inline;
+text-decoration: none;
+white-space: pre-wrap;
+word-wrap: break-word;
 }
